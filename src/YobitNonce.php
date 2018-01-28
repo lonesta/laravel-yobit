@@ -1,4 +1,4 @@
-<?php namespace Pepijnolivier\Yobit;
+<?php namespace Lonesta\Yobit;
 
 
 use Illuminate\Database\Eloquent\Model;
