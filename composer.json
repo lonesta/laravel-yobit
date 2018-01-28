@@ -1,5 +1,5 @@
 {
-  "name": "pepijnolivier/laravel-yobit",
+  "name": "lonesta/laravel-yobit",
   "description": "Yobit API wrapper for Laravel",
   "tags": ["yobit", "api", "laravel"],
   "type": "library",
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pepijnolivier\\Yobit\\": "src/"
+      "Lonesta\\Yobit\\": "src/"
     }
   }
 }
