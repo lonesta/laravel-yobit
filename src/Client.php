@@ -1,5 +1,5 @@
 <?php
-namespace Pepijnolivier\Yobit;
+namespace Lonesta\Yobit;
 
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Log;
