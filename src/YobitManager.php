@@ -1,5 +1,5 @@
 <?php
-namespace Pepijnolivier\Yobit;
+namespace Lonesta\Yobit;
 
 class YobitManager
 {
