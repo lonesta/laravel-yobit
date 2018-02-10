@@ -92,7 +92,7 @@ class Client implements ClientContract
      */
     public function getTrade(string $currencyPair, $limit)
     {
-        return $this->public('v3', "trade/$currencyPair", [
+        return $this->public('v3', "trades/$currencyPair", [
             'limit' => $limit,
         ]);
     }
@@ -100,7 +100,7 @@ class Client implements ClientContract
     public function getTrades(array $currencyPairs = [], $ignoreInvalid = false, $limit=null)
     {
         $impl = implode('-', $currencyPairs);
-        return $this->public('v3', "trade/$impl", [
+        return $this->public('v3', "trades/$impl", [
             'ignore_invalid' => (int) $ignoreInvalid,
             'limit' => $limit,
         ]);
